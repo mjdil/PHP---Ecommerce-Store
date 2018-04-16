@@ -15,7 +15,7 @@
   $id = $userRow['user_id'];
 	if ($id == 1){
 
-		echo "Your are Admin";
+		//echo "Your are Admin";
 	}
 
 	else{
@@ -96,13 +96,14 @@ table.altrowstable td {
 
 	<div id="main3">
 
-		<div id="header"><img src="../img/logo.png"></div>
+		<div id="header"><a href="../index.php"><img src="../img/logo.png"></a></div>
 <center>
 	<div id="manu">
 	<ul>
-	<li><a href="admin.php" >HOME</a></li>
+	<li><a href="admin.php"  style="background:#1f447f; color:#fff;">HOME</a></li>
 	<li><a href="product.php" >PRODUCT</a></li>
 	<li><a href="order.php" >ORDER</a></li>
+			<li><a href="message.php" >Messages</a></li>
 	<li><a href="../login/logout.php?logout=true" >SIGN OUT</a></li>
 	</ul>
 	</div>
